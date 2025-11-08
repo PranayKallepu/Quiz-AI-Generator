@@ -1,0 +1,17 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+sqlalchemy>=2.0.36
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+langchain>=0.2.16
+langchain-google-genai>=1.0.3
+beautifulsoup4>=4.12.3
+requests>=2.32.3
+python-dotenv>=1.0.1
+psycopg2-binary>=2.9.0
+# Database drivers (optional - SQLite works without any drivers)
+# Uncomment the database driver you want to use:
+# psycopg2-binary>=2.9.0  # For PostgreSQL (may require PostgreSQL dev tools on some systems)
+# pymysql>=1.1.0  # For MySQL
+# SQLite is built into Python and requires no additional packages
+
